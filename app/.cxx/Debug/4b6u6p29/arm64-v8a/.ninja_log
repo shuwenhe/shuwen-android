@@ -1,0 +1,5 @@
+# ninja log v5
+0	1203	7531827696215942	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
+1213	1335	7531827697482677	C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/build/intermediates/cxx/Debug/4b6u6p29/obj/arm64-v8a/libshuwen.so	13b1bef1193c7d75
+0	12	0	clean	1a5333f9ba8b1a6f
+1	9	0	clean	1a5333f9ba8b1a6f
