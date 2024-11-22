@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("shuwen");
     }
-
+    
     private ActivityMainBinding binding;
 
     @Override
