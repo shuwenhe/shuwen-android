@@ -5,6 +5,10 @@
 # Sets the minimum CMake version required for this project.
 cmake_minimum_required(VERSION 3.22.1)
 
+# 查找并添加CURL库
+find_package(CURL REQUIRED)
+include_directories(${CURL_INCLUDE_DIRS})
+
 # Declares the project name. The project name can be accessed via ${ PROJECT_NAME},
 # Since this is the top level CMakeLists.txt, the project name is also accessible
 # with ${CMAKE_PROJECT_NAME} (both CMake variables are in-sync within the top level
@@ -24,7 +28,11 @@ project("shuwen")
 # System.loadLibrary() and pass the name of the library defined here;
 # for GameActivity/NativeActivity derived applications, the same library name must be
 # used in the AndroidManifest.xml file.
+# 添加你的源文件到可执行文件或者库中
 add_library(${CMAKE_PROJECT_NAME} SHARED
+        native-lib
+        # 设置库的类型为共享库
+        SHARED
         # List C/C++ source files with relative paths to this CMakeLists.txt.
         native-lib.cpp)
 
@@ -33,5 +41,11 @@ add_library(${CMAKE_PROJECT_NAME} SHARED
 # build script, prebuilt third-party libraries, or Android system libraries.
 target_link_libraries(${CMAKE_PROJECT_NAME}
         # List libraries link to the target library
+        native-lib
+        # 链接CURL库
+        ${CURL_LIBRARY}
+        # 链接log库，用于在Android中输出日志
+        ${log-lib}
         android
         log)
+
