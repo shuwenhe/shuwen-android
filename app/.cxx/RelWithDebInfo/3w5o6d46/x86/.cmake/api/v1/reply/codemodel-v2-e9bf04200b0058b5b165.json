@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.6.0"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "RelWithDebInfo",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "shuwen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shuwen-Debug-097b6d9fa46850e6d97c.json",
+					"jsonFile" : "target-shuwen-RelWithDebInfo-f85eec6ac64b818e7753.json",
 					"name" : "shuwen",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/armeabi-v7a",
+		"build" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/RelWithDebInfo/3w5o6d46/x86",
 		"source" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/src/main/cpp"
 	},
 	"version" : 

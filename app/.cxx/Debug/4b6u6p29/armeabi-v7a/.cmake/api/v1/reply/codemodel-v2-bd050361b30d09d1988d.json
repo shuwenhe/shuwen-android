@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "shuwen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-shuwen-Debug-00264616773c79fa231a.json",
+					"jsonFile" : "target-shuwen-Debug-2dff0550c77908455d31.json",
 					"name" : "shuwen",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/arm64-v8a",
+		"build" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/armeabi-v7a",
 		"source" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/src/main/cpp"
 	},
 	"version" : 

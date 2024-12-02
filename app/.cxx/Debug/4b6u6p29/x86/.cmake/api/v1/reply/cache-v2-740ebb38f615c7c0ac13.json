@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "RelWithDebInfo"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/RelWithDebInfo/3w5o6d46/x86"
+			"value" : "c:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3w5o6d46\\obj\\x86"
+			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\Debug\\4b6u6p29\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3w5o6d46\\obj\\x86"
+			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\Debug\\4b6u6p29\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/RelWithDebInfo/3w5o6d46/x86"
+			"value" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/x86"
 		},
 		{
 			"name" : "shuwen_IS_TOP_LEVEL",
