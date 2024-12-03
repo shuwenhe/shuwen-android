@@ -1,6 +1,6 @@
 #include <jni.h>
 #include <string>
-//#include <curl/curl.h>
+#include <curl/curl.h>
 #include <android/log.h>
 
 // 定义日志标签
