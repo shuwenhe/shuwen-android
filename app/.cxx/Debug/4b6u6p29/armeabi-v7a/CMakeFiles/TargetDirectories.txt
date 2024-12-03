@@ -1,3 +1,0 @@
-C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/armeabi-v7a/CMakeFiles/shuwen.dir
-C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/armeabi-v7a/CMakeFiles/rebuild_cache.dir

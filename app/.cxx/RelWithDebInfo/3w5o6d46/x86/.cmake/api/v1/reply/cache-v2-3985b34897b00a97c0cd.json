@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86_64"
+			"value" : "x86"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86_64"
+			"value" : "x86"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "RelWithDebInfo"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/x86_64"
+			"value" : "c:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/RelWithDebInfo/3w5o6d46/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\Debug\\4b6u6p29\\obj\\x86_64"
+			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3w5o6d46\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\Debug\\4b6u6p29\\obj\\x86_64"
+			"value" : "C:\\Users\\Administrator\\AndroidStudioProjects\\shuwen-android\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3w5o6d46\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1219,11 +1219,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\build\\cmake\\android.toolchain.cmake"
+			"type" : "FILEPATH",
+			"value" : "C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1242,6 +1242,114 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CURL_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for CURL."
+				}
+			],
+			"type" : "PATH",
+			"value" : "CURL_DIR-NOTFOUND"
+		},
+		{
+			"name" : "CURL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "CURL_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "CURL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CURL_LIBRARY-NOTFOUND"
+		},
+		{
+			"name" : "CURL_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CURL_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "CURL_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CURL_LIBRARY_RELEASE-NOTFOUND"
+		},
+		{
+			"name" : "PKG_CONFIG_ARGN",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Arguments to supply to pkg-config"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "PKG_CONFIG_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "pkg-config executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "PKG_CONFIG_EXECUTABLE-NOTFOUND"
+		},
+		{
 			"name" : "shuwen_BINARY_DIR",
 			"properties" : 
 			[
@@ -1251,7 +1359,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/Debug/4b6u6p29/x86_64"
+			"value" : "C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/.cxx/RelWithDebInfo/3w5o6d46/x86"
 		},
 		{
 			"name" : "shuwen_IS_TOP_LEVEL",

@@ -37,6 +37,7 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this */) {
+    //CURL *curl;
     std::string hello = "shuwen android";
     return env->NewStringUTF(hello.c_str());
 }
