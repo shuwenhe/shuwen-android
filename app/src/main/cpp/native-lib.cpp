@@ -1,6 +1,7 @@
 #include <jni.h>
 #include <string>
 //#include <curl/curl.h>
+#include "C:\Users\vcpkg\installed\x64-windows\include\curl\curl.h"
 #include <android/log.h>
 
 // 定义日志标签
