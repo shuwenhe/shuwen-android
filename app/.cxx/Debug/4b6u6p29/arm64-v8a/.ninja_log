@@ -1,12 +1,3 @@
 # ninja log v5
-1	678	7550005305536279	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
-683	802	7550005306422910	C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/build/intermediates/cxx/Debug/4b6u6p29/obj/arm64-v8a/libshuwen.so	13b1bef1193c7d75
-4	461	7550007368343790	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
-461	524	7550007368986724	C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/build/intermediates/cxx/Debug/4b6u6p29/obj/arm64-v8a/libshuwen.so	13b1bef1193c7d75
-0	6	0	clean	1a5333f9ba8b1a6f
-10	711	7550016186187582	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
-712	780	7550016186855959	C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/build/intermediates/cxx/Debug/4b6u6p29/obj/arm64-v8a/libshuwen.so	13b1bef1193c7d75
-4	507	7550044819268039	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
-507	573	7550044819936737	C:/Users/Administrator/AndroidStudioProjects/shuwen-android/app/build/intermediates/cxx/Debug/4b6u6p29/obj/arm64-v8a/libshuwen.so	13b1bef1193c7d75
-0	8	0	clean	1a5333f9ba8b1a6f
+0	757	7550203361965933	CMakeFiles/shuwen.dir/native-lib.cpp.o	14bbb4f6e6b3d662
 0	7	0	clean	1a5333f9ba8b1a6f

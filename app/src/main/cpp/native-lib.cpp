@@ -38,7 +38,32 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this */) {
-    //CURL *curl;
-    std::string hello = "shuwen";
-    return env->NewStringUTF(hello.c_str());
+    CURL *curl;
+    CURLcode res;
+    struct MemoryStruct chunk;
+    chunk.memory = (char *) malloc(1);
+    chunk.size = 0;
+
+    curl = curl_easy_init();
+    if(curl){
+        std::string url = "http://www.xstiku.com/getUserData";
+        curl_easy_setopt(curl,CURLOPT_URL,url.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);
+
+        res = curl_easy_perform(curl);
+        if (res!= CURLE_OK) {
+            LOGE("curl_easy_perform() failed: %s", curl_easy_strerror(res));
+            free(chunk.memory);
+            curl_easy_cleanup(curl);
+            return env->NewStringUTF("");
+        }
+
+        curl_easy_cleanup(curl);
+
+        std::string result(chunk.memory, chunk.size);
+        free(chunk.memory);
+        return env->NewStringUTF(result.c_str());
+    }
+    return env->NewStringUTF("");
 }
