@@ -1,6 +1,6 @@
 #include <jni.h>
 #include <string>
-#include <curl/curl.h>
+//#include <curl/curl.h>
 #include <android/log.h>
 
 // 定义日志标签
@@ -38,6 +38,6 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this */) {
     //CURL *curl;
-    std::string hello = "shuwen android";
+    std::string hello = "shuwen";
     return env->NewStringUTF(hello.c_str());
 }
