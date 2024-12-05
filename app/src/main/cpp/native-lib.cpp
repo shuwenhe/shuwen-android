@@ -40,7 +40,8 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this */) {
     CURL *curl;
-    CURLcode res;
+//    CURLcode res;
+    CURLcode res = CURLE_OK;
     std::cout<<"CURLcode="<<res<<std::endl;
     struct MemoryStruct chunk;
     chunk.memory = (char *) malloc(1);
@@ -49,5 +50,5 @@ Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this *
     // 初始化cURL
     //curl_global_init(CURL_GLOBAL_DEFAULT);
     //curl = curl_easy_init();
-
+    return env->NewStringUTF(chunk.memory ? chunk.memory : "No response");
 }
