@@ -3,6 +3,7 @@
 //#include <curl/curl.h>
 #include "C:\Users\vcpkg\installed\x64-windows\include\curl\curl.h"
 #include <android/log.h>
+#include <iostream>
 
 // 定义日志标签
 #define LOG_TAG "NativeLib"
@@ -40,30 +41,13 @@ extern "C" JNIEXPORT jstring JNICALL
 Java_com_example_shuwen_MainActivity_stringFromJNI(JNIEnv* env,jobject /* this */) {
     CURL *curl;
     CURLcode res;
+    std::cout<<"CURLcode="<<res<<std::endl;
     struct MemoryStruct chunk;
     chunk.memory = (char *) malloc(1);
     chunk.size = 0;
 
-    curl = curl_easy_init();
-    if(curl){
-        std::string url = "http://www.xstiku.com/getUserData";
-        curl_easy_setopt(curl,CURLOPT_URL,url.c_str());
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);
+    // 初始化cURL
+    //curl_global_init(CURL_GLOBAL_DEFAULT);
+    //curl = curl_easy_init();
 
-        res = curl_easy_perform(curl);
-        if (res!= CURLE_OK) {
-            LOGE("curl_easy_perform() failed: %s", curl_easy_strerror(res));
-            free(chunk.memory);
-            curl_easy_cleanup(curl);
-            return env->NewStringUTF("");
-        }
-
-        curl_easy_cleanup(curl);
-
-        std::string result(chunk.memory, chunk.size);
-        free(chunk.memory);
-        return env->NewStringUTF(result.c_str());
-    }
-    return env->NewStringUTF("");
 }
